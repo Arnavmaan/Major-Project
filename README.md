@@ -31,12 +31,11 @@ Make (optional, if using a Makefile)
 
 ## Build Instructions
 Step 1 — Clone the Repository
-git clone https://github.com/yourusername/cli-health-metric-calculator.git
+
 Step 2 — Navigate to the Source Directory
-cd cli-health-metric-calculator/src
+
 Step 3 — Compile the Program
-Using GCC:
-gcc main.c bmi.c bmr.c bodyfat.c utils.c -o health_calc
+
 If using a Makefile:
 make
 
@@ -46,8 +45,12 @@ Run the application:
 
 ## Contributing
 Fork the repository
+
 Create a new branch
+
 git checkout -b feature-name
+
 Commit your changes with clear messages
+
 Push the branch
 Create a Pull Request
